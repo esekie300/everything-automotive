@@ -108,7 +108,7 @@ function App() {
                 <span>Buy/Sell Cars</span>
               </button>
               <button className="flex items-center justify-center space-x-2 bg-green-600 text-white px-6 py-4 rounded-lg hover:bg-green-700 transition group shadow-lg">
-                <Bot className="h-5 w-5 group-hover:animate-pulse" />
+                <Bot className="h-5 w-5 group-hover:rotate-[-15deg] group-hover:scale-110 transition-transform" />
                 <span>Ask an AI Mechanic</span>
               </button>
             </div>
