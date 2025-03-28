@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Phone, Car, PenTool as Tools, ShoppingBag, MessageSquare } from 'lucide-react';
+import { Menu, X, Car, PenTool as Tools, ShoppingBag, MessageSquare, Bot } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -64,7 +64,7 @@ function App() {
                   <span>About</span>
                 </a>
                 <button className="w-full flex items-center justify-center mt-4 bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition shadow-md">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Bot className="h-5 w-5 mr-2" />
                   <span>Login</span>
                 </button>
               </div>
@@ -108,8 +108,8 @@ function App() {
                 <span>Buy/Sell Cars</span>
               </button>
               <button className="flex items-center justify-center space-x-2 bg-green-600 text-white px-6 py-4 rounded-lg hover:bg-green-700 transition group shadow-lg">
-                <Phone className="h-5 w-5 group-hover:-rotate-12 transition-transform" />
-                <span>Free Manager Call</span>
+                <Bot className="h-5 w-5 group-hover:animate-pulse" />
+                <span>Ask an AI Mechanic</span>
               </button>
             </div>
           </div>
