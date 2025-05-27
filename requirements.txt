@@ -1,0 +1,15 @@
+Flask>=2.0
+python-dotenv>=0.19
+supabase>=1.0 # Or the latest version of the official supabase-py
+requests>=2.25
+pydantic[email]>=1.8 # For data validation
+bcrypt>=3.2 # For password hashing (if not relying solely on Supabase)
+Flask-Cors>=3.0 # For handling Cross-Origin Resource Sharing
+waitress>=2.0 # Production WSGI server (alternative: gunicorn)
+openai>=1.0 # For AI interactions
+twilio>=7.0 # For SMS/WhatsApp
+sendgrid>=6.0 # For Email (alternative: use smtplib)
+certifi # Often needed for SSL verification with requests/sendgrid
+email-validator>=1.1 
+tinify
+
